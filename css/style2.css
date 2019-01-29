@@ -501,6 +501,8 @@ footer{
         margin-top: 130%;
         float: bottom;
     }
-
+    .productname p{
+        font-size: 15px;
+    }
 }
 
