@@ -44,7 +44,7 @@
         <nav>
             <ul class="close" onclick="navSlide()">
                 <li>
-                    <a href="#" class="close" onclick="navSlide()">
+                    <a href="./index.html" class="close" onclick="navSlide()">
                         Home
                     </a>
                 </li>
@@ -232,8 +232,21 @@
     </div>
 </section>
 
+<footer>
+    <div id="credits">
+        <p> Made with <i class="fas fa-heart"></i> by Mainik Walia</p>
+    </div>
+</footer>
+
+
+
 <script>
-AOS.init()
+AOS.init(
+    {
+        once:true,
+        disable:'mobile'
+    }
+);
 </script>
 </body>
 </html>
