@@ -1535,8 +1535,8 @@ footer{
 
 
 @media screen and (max-device-width:500px){
-    body{
-        overflow-y: hidden;
+    section{
+        overflow-x: hidden;
     }
     #image-container{
         visibility: hidden;
@@ -1602,6 +1602,15 @@ footer{
     footer{
         margin-top: 60%;
         float: bottom;
+    }
+
+    #image-container{
+        height: 0;
+        width: 0;
+    }
+    #image-container img{
+        height: 0;
+        width: 0;
     }
 
 }
